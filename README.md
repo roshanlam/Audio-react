@@ -129,3 +129,15 @@ MIC_RATE`
 to your microphone sampling rate in Hz. Most of the time you will not need to change this.
 
 # If you encounter any problems with the code please open a new issue.
+
+
+# Install ws281x library
+To install the ws281x library I recommend following this Adafruit tutorial.
+`
+sudo apt-get install build-essential python-dev git scons swig
+git clone https://github.com/jgarff/rpi_ws281x.git
+cd rpi_ws281x
+scons
+cd python
+sudo python setup.py install
+`
