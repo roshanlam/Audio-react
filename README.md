@@ -1,10 +1,10 @@
 # Audio-react
 Real-time LED strip music visualization using Python and the ESP8266 or Raspberry Pi
-Markup : ![picture alt](images/block-diagram.png)
-Markup : ![picture alt](images/block-diagram2.png)
+ ![picture alt](images/block-diagram.png)
+ ![picture alt](images/block-diagram2.png)
 
 # Demo
-Markup : ![picture alt](images/scroll-effect-demo.gif)
+![picture alt](images/scroll-effect-demo.gif)
 # Filter Bank
 It is a filter bank with triangular shaped bands
 arnged on the mel frequency scale.
@@ -73,8 +73,8 @@ The ESP8266 has hardware support for I²S and this peripheral is used to control
 The RX1 pin on the ESP8266 module should be connected to the data input pin of the ws2812b LED strip (often labelled DIN or D0).
 
 For the NodeMCU v3 and Adafruit Feather HUZZAH, the location of the RX1 pin is shown in the images below. Many other modules also expose the RX1 pin.
-Markup : ![picture alt](images/NodeMCUv3-small.png)
-Markup : ![picture alt](images/FeatherHuzzah-small.png)
+ ![picture alt](images/NodeMCUv3-small.png)
+ ![picture alt](images/FeatherHuzzah-small.png)
 
 
 # Raspberry Pi
