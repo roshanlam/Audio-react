@@ -48,10 +48,10 @@ On Windows machines, the use of Anaconda is highly recommended. Anaconda simplif
 # Istalling dependencies with Anaconda
 Create a conda virtual environment (this step is optional but recommended)
 
-`onda create --name visualization-env python=3.5
+`conda create --name visualization-env python=3.5
 activate visualization-env`
 Install dependencies using pip and the conda package manager
-`onda install numpy scipy pyqtgraph
+`conda install numpy scipy pyqtgraph
 pip install pyaudio`
 # Istalling dependencies without Anaconda
 The pip package manager can also be used to install the python dependencies.
