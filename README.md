@@ -3,6 +3,7 @@ This module implements a Filter Bank.
 In other words it is a filter bank with triangular shaped bands
 arnged on the mel frequency scale.
 An example ist shown in the following figure:
+# Figure
 `.. plot::
     from pylab import plt
     import melbank
