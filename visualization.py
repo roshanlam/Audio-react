@@ -8,7 +8,6 @@ import microphone
 import dsp
 import led
 
-
 # Created by Roshan Lamichhane
 
 _time_prev = time.time() * 1000.0
