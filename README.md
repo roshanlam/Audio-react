@@ -57,9 +57,13 @@ pip install pyaudio`
 The pip package manager can also be used to install the python dependencies.
 
 `pip install numpy
+
 pip install scipy
+
 pip install pyqtgraph
+
 pip install pyaudio `
+
 If pip is not found try using `python -m pip install` instead.
 
 # Arduino dependencies
