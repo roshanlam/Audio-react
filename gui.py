@@ -12,7 +12,7 @@ class GUI:
     plot = []
     curve = []
 
-    def __init__(self, width=800, height=450, title=''):
+    def __init__(self, width=800, height=450, title='Audio React'):
         # Create GUI window
         self.app = QtGui.QApplication([])
         self.win = pg.GraphicsWindow(title)
@@ -35,7 +35,7 @@ class GUI:
 if __name__ == '__main__':
     # Example test gui
     N = 48
-    gui = GUI(title='GUI Window (Still In Development)')
+    gui = GUI(title='Audio React (Still In Development)')
     # Sin plot
     gui.add_plot(title='Sin Plot')
     gui.add_curve(plot_index=0)
